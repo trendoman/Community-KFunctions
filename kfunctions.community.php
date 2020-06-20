@@ -25,6 +25,7 @@ if ( !defined('K_COUCH_DIR') ) die(); // cannot be loaded directly
 *   Addon for multi-lingual sites @ https://couchcms.com/forum/viewtopic.php?f=5&t=10979
 *   Restrict access to specific portions of the admin-panel to certain admins @ https://www.couchcms.com/forum/viewtopic.php?f=8&t=10715#p27178
 *   Threaded Comments Implementation @ https://www.couchcms.com/forum/viewtopic.php?f=8&t=9182
+*   Lazy Load Images, Iframes, Video and Audio @ https://www.couchcms.com/forum/viewtopic.php?f=8&t=11250#p29569
 */
 
 //require_once( K_COUCH_DIR.'addons/cart/cart.php' );
@@ -51,6 +52,7 @@ if ( !defined('K_COUCH_DIR') ) die(); // cannot be loaded directly
 //require_once( K_COUCH_DIR.'addons/tiny-html-minifier/TinyMinify.php' );
 //require_once( K_COUCH_DIR.'addons/config/config.php' );
 //require_once( K_COUCH_DIR.'addons/character-counter/character-counter.php' );
+//require_once( K_COUCH_DIR.'addons/lazyload/lazyload.php' );
 //$FUNCS->register_admin_listview( 'comments.php', 'comments-admin-list.php' );
 /**
 *   Autoloader for PHP files in addons/community-mods/
